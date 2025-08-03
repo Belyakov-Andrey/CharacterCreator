@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\mage.png" />
+      <EmbeddedResource Include="Resources\mage.png" />
+      <None Remove="Resources\rogue.png" />
+      <EmbeddedResource Include="Resources\rogue.png" />
+      <None Remove="Resources\warrior.png" />
+      <EmbeddedResource Include="Resources\warrior.png" />
+    </ItemGroup>
+
+</Project>
